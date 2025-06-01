@@ -1,3 +1,10 @@
+/**
+* SES Smart Event System
+* (c) 2025 Amber-Sophia Schröck
+* This file is copyright under the latest version of the EUPL.
+* Please see LICENSE file for your rights under this license.
+**/
+
 #include "eventmanager.h"
 #include "sorted_vector.h" // Ensure the correct header for sorted_vector is included
 

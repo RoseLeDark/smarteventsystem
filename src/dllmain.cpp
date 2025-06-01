@@ -1,3 +1,10 @@
+/**
+* SES Smart Event System
+* (c) 2025 Amber-Sophia Schröck
+* This file is copyright under the latest version of the EUPL.
+* Please see LICENSE file for your rights under this license.
+**/
+
 #define WIN32_LEAN_AND_MEAN             // Selten verwendete Komponenten aus Windows-Headern ausschließen
 // Windows-Headerdateien
 #include <windows.h>
@@ -19,6 +26,8 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     }
     return TRUE;
 }
+
+/*
 #if 0
 
 #include <iostream>
@@ -64,4 +73,5 @@ int main()
     return 0;
 }
 #endif
+*/
 
