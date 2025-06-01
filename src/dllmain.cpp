@@ -38,6 +38,8 @@ public:
         return true;
     }
     virtual void onMessagePost(void* sender, bool bWasAdd) {
+        eventmanager *manager = static_cast<eventmanager*>(sender);
+
         std::cout << "onMessagePost" << ((bWasAdd) ? " true " : " false ") << "\n";
     }
     virtual void onMessageExpired(void* sender, uint64_t time) {
