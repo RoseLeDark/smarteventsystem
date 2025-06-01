@@ -90,4 +90,6 @@ manager.endProcessMessages();
 - Thread-sicher: Zugriff auf Nachrichtenliste ist synchronisiert.
 - Flexibel und einfach: Keine komplexen IDs, Dispatcher oder Listener. Nur Posten und Verarbeiten.
 
+License
+This project is licensed under the EUPL-1.2. Please see [LICENSE](LICENSE) for more details.
 
