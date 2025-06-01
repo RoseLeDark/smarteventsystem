@@ -19,7 +19,7 @@ BOOL APIENTRY DllMain( HMODULE hModule,
     }
     return TRUE;
 }
-if 0
+#if 0
 
 #include <iostream>
 #include <eventmanager.h>
